@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@700&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+
+h1, h2, h3 {
+  font-family: Poppins, sans-serif;
+  line-height: 28px;
+  color: #FF7878;
+}
+
+h2 {
+  margin-block: 0px;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #CAF7E3;
+}
+
+p {
+  color: #FF7878;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.degrade-diagonal {
+  background: linear-gradient(to bottom left, #FAF0D7, #FFB9B9);
+}
+.cta {
+  display: block;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 0px 8em 10px 8em;
+  background-color: #FF7878;
+}
+
+a:hover {
+  color: #CAF7E3;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  padding: 10px 30px;
+  margin: 20px;
+  border: 1px solid #F4BFBF;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px #94c4af;
+
+}
+.list-inline > li {
+  display: inline-block;
+  margin: 5px;
+  font-size: 1.5em;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+  .cta {
+    margin: 0px 8em 0px 8em;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .cta {
+    margin: 0px 4em 0px 4em;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  .cta {
+    margin: 0px 2em 0px 2em;
+  }
+}
